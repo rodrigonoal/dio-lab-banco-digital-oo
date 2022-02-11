@@ -15,7 +15,7 @@ public abstract class Conta implements IConta {
 	protected double saldo;
 	protected Cliente cliente;
 
-	public Conta(Cliente cliente) {
+	protected Conta(Cliente cliente) {
 		this.agencia = Conta.AGENCIA_PADRAO;
 		this.numero = SEQUENCIAL++;
 		this.cliente = cliente;
