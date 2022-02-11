@@ -13,6 +13,7 @@ public class Banco {
 
 	private List<Conta> contas;
 
+	@Getter
 	public List<Conta> getContas() {
 		return contas;
 	}
