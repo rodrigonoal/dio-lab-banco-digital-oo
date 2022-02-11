@@ -1,3 +1,4 @@
+package com.noalgroup;
 
 public class ContaCorrente extends Conta {
 

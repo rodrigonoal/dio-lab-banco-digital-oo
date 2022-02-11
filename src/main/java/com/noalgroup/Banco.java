@@ -1,3 +1,5 @@
+package com.noalgroup;
+
 import java.util.List;
 
 public class Banco {

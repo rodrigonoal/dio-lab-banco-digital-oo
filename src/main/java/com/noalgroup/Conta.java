@@ -1,3 +1,4 @@
+package com.noalgroup;
 
 public abstract class Conta implements IConta {
 	
