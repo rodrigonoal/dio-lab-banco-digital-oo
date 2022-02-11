@@ -11,12 +11,8 @@ public class Banco {
 	@Setter
 	private String nome;
 
-	private List<Conta> contas;
-
 	@Getter
-	public List<Conta> getContas() {
-		return contas;
-	}
+	private List<Conta> contas;
 
 	public void setContas(List<Conta> contas) {
 		this.contas = contas;
