@@ -1,6 +1,11 @@
 # Steps to run:
 
+Run
+```bash
+./script.sh
 ```
+
+```bash
 mvn clean compile
 
 mvn -B package
